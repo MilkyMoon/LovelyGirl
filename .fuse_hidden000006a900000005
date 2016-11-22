@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>A Lovely Girl!</title>
+    <title>Lovely Girl!</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/cake.css" type="text/css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -10,63 +10,61 @@
     <script src="js/smoothscroll.min.js" type="text/javascript"></script>
 </head>
 <body>
-    <div class="card_wrap">
-        <!--card1:2016生日贺卡！-->
-        <div  id="card1" class="card_cont card">
-            <div class="title">
+    <div id="home">
+        <div class="title">
 
+        </div>
+        <div class="cake">
+            <div class="velas">
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
             </div>
-            <div class="cake">
-                <div class="velas">
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                </div>
-                <div class="velas2">
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                </div>
-                <div class="velas3">
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                </div>
-                <div class="velas4">
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                </div>
-                <div class="velas5">
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                </div>
-                <div class="velas6">
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                </div>
-                <div class="velas7">
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                    <div class="fuego"></div>
-                </div>
-                <svg id="cake" version="1.1" x="0px" y="0px" width="200px" height="500px" viewBox="0 0 200 500" enable-background="new 0 0 200 100" xml:space="preserve">
+            <div class="velas2">
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+            </div>
+            <div class="velas3">
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+            </div>
+            <div class="velas4">
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+            </div>
+            <div class="velas5">
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+            </div>
+            <div class="velas6">
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+            </div>
+            <div class="velas7">
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+            </div>
+            <svg id="cake" version="1.1" x="0px" y="0px" width="200px" height="500px" viewBox="0 0 200 500" enable-background="new 0 0 200 100" xml:space="preserve">
                 <path fill="#a88679" d="M173.667-13.94c-49.298,0-102.782,0-147.334,0c-3.999,0-4-16.002,0-16.002
                     c44.697,0,96.586,0,147.334,0C177.667-29.942,177.668-13.94,173.667-13.94z">
                     <animate id="bizcocho_3" attributeName="d" calcMode="spline" keySplines="0 0 1 1; 0 0 1 1" begin="relleno_2.end" dur="0.3s" fill="freeze" values="
@@ -214,32 +212,21 @@
                 </path>
                 <rect x="10" y="475.571" fill="#fefae9" width="180" height="4" />
             </svg>
-            </div>
-
-            <div id="text">
-                <p class="slogon">/* <span class="typed-quotes"></span> */
-            </div>
-            <a class="scroll-up-div"><i class="fa fa-angle-up"></i></a>
         </div>
 
-        <!--card2:2016生日贺卡2-->
-        <div id="card2" class="card_cont card">
-            <a class="scroll-down-div"><i class="fa fa-angle-down"></i></a>
-            <div></div>
-            <a class="scroll-up-div"><i class="fa fa-angle-up"></i></a>
+        <div id="text">
+            <p class="slogon">/* <span class="typed-quotes"></span> */
         </div>
+        <!--<div class="scroll-down-div" onclick="$('#title-bar-feature-btn').trigger('click')"><i class="fa fa-angle-down" ></i></div>-->
+        <a href="#content" class="scroll-down-div" id="scroll-down"><i class="fa fa-angle-down" ></i></a>
     </div>
-
-
-
-    <div id="content" class="content" style="display: none">
-        <a onclick="backhome()">asdfadfasdf</a>
+    <div id="content" style="height: 900px">
+        打发打发哈大声道发生及地方阿道夫爱的
     </div>
 </body>
 <script type="text/javascript">
-    //获取浏览器窗口高度
-    divheight();
-    function divheight(){ //函数：获取尺寸
+    autodivheight();
+    function autodivheight(){ //函数：获取尺寸
         //获取浏览器窗口高度
         var winHeight=0;
         if (window.innerHeight)
@@ -250,10 +237,9 @@
         if (document.documentElement && document.documentElement.clientHeight)
             winHeight = document.documentElement.clientHeight;
         //DIV高度为浏览器窗口高度
-        document.getElementsByClassName("card_cont").style.height= winHeight +"px";
+        document.getElementById("home").style.height= winHeight +"px";
     }
-    window.onresize=divheight(); //浏览器窗口发生变化时同时变化DIV高度
+    window.onresize=autodivheight; //浏览器窗口发生变化时同时变化DIV高度
 </script>
 <script src="js/typed-quotes.js" type="text/javascript"></script>
-<script src="js/card.js" type="text/javascript"></script>
 </html>

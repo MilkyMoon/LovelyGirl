@@ -6,17 +6,21 @@ body{
 }
 
 #home{
-    background: #ee9ca7;
-    width: 100%;
-    height: 100%;
-    margin:0;
-    padding: 0;
-    position: relative;
-    border-bottom: solid 1px #ddd;
+
 }
 
-.scroll-down-div{
+#content{
     position: absolute;
+    z-index: 50;
+}
+
+.content{
+    height: 1200px;
+}
+
+.scroll-up-div{
+    position: absolute;
+    left:0;
     bottom: 0;
     width: 100%;
     color: #fff;
@@ -29,17 +33,32 @@ body{
     box-shadow: 0px -10px 10px #0000001A inset;                 /* For Latest Opera */
 }
 
+.scroll-down-div{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    height: 32px;
+    font-size: 18px;
+    text-align: center;
+    -moz-box-shadow:0px 10px 10px #0000001A inset;            /* For Firefox3.6+ */
+    -webkit-box-shadow:0px 10px 10px #0000001A inset;         /* For Chrome5+, Safari5+ */
+    box-shadow: 0px 10px 10px #0000001A inset;                 /* For Latest Opera */
+}
+
+.scroll-down-div i{
+    bottom: 0;
+    position: absolute;
+}
+
 .title{
     position: absolute;
     width: 100%;
     height: 200px;
     z-index: 100;
     background-color: #ee9ca7;
-}
-
-.cake{
-    position: relative;
-    z-index: 10;
 }
 
 .slogon{
@@ -51,3 +70,57 @@ body{
     color: #FEFAE9;
     text-align: center;
 }
+
+.card{
+    display:block;
+    transform:scale(1,1) translate(0,0) !important ;
+    -ms-transform:scale(1,1) translate(0,0) !important ;
+    -moz-transform:scale(1,1) translate(0,0) !important ;
+    -webkit-transform:scale(1,1) translate(0,0) !important ;
+}
+
+.card_cont{
+    background-size:100% auto;
+    transition:all ease 1s;
+    -webkit-transition:all ease 1s;
+    -moz-transition:all ease 1s;
+    -ms-transition:all ease 1s;
+    transform:scale(0,0);
+    -moz-transform:scale(0,0);
+    -ms-transform:scale(0,0);
+    -o-transform:scale(0,0);
+    -webkit-transform:scale(0,0);
+    bottom:0;
+}
+
+.cardn{
+    display:block;
+    transform:translate(0,-1000px) !important;
+    -moz-transform:translate(0,-1000px) !important;
+    -ms-transform:translate(0,-1000px) !important;
+    -webkit-transform:translate(0,-1000px) !important;
+}
+
+#card1{
+    display:block;
+    background: #ee9ca7;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+#card2{
+    display:block;
+    background: #eed252;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    position: fixed;
+    z-index: 99;
+}
+
+

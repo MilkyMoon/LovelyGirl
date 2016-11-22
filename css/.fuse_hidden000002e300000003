@@ -1,9 +1,4 @@
 
-.cake{
-    position: relative;
-    z-index: 10;
-}
-
 #cake {
     display: block;
     position: relative;

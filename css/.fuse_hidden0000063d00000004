@@ -1,0 +1,53 @@
+/*html { overflow: hidden; }*/
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+#home{
+    background: #ee9ca7;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    position: relative;
+    border-bottom: solid 1px #ddd;
+}
+
+.scroll-down-div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    height: 32px;
+    font-size: 18px;
+    text-align: center;
+    -moz-box-shadow:0px -10px 10px #0000001A inset;            /* For Firefox3.6+ */
+    -webkit-box-shadow:0px -10px 10px #0000001A inset;         /* For Chrome5+, Safari5+ */
+    box-shadow: 0px -10px 10px #0000001A inset;                 /* For Latest Opera */
+}
+
+.title{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    z-index: 100;
+    background-color: #ee9ca7;
+}
+
+.cake{
+    position: relative;
+    z-index: 10;
+}
+
+.slogon{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FEFAE9;
+    text-align: center;
+}
