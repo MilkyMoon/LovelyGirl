@@ -2,69 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lovely Girl!</title>
+    <title>A Lovely Girl!</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/cake.css" type="text/css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/smoothscroll.min.js" type="text/javascript"></script>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div id="home">
-        <div class="title">
+    <div class="card_wrap">
+        <!--card1:2016生日贺卡！-->
+        <div  id="card1" class="card_cont card">
+            <div class="title">
 
-        </div>
-        <div class="cake">
-            <div class="velas">
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
             </div>
-            <div class="velas2">
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-            </div>
-            <div class="velas3">
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-            </div>
-            <div class="velas4">
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-            </div>
-            <div class="velas5">
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-            </div>
-            <div class="velas6">
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-            </div>
-            <div class="velas7">
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-                <div class="fuego"></div>
-            </div>
-            <svg id="cake" version="1.1" x="0px" y="0px" width="200px" height="500px" viewBox="0 0 200 500" enable-background="new 0 0 200 100" xml:space="preserve">
+            <div class="cake">
+                <div class="velas">
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                </div>
+                <div class="velas2">
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                </div>
+                <div class="velas3">
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                </div>
+                <div class="velas4">
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                </div>
+                <div class="velas5">
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                </div>
+                <div class="velas6">
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                </div>
+                <div class="velas7">
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                    <div class="fuego"></div>
+                </div>
+                <svg id="cake" version="1.1" x="0px" y="0px" width="200px" height="500px" viewBox="0 0 200 500" enable-background="new 0 0 200 100" xml:space="preserve">
                 <path fill="#a88679" d="M173.667-13.94c-49.298,0-102.782,0-147.334,0c-3.999,0-4-16.002,0-16.002
                     c44.697,0,96.586,0,147.334,0C177.667-29.942,177.668-13.94,173.667-13.94z">
                     <animate id="bizcocho_3" attributeName="d" calcMode="spline" keySplines="0 0 1 1; 0 0 1 1" begin="relleno_2.end" dur="0.3s" fill="freeze" values="
@@ -212,21 +219,72 @@
                 </path>
                 <rect x="10" y="475.571" fill="#fefae9" width="180" height="4" />
             </svg>
+            </div>
+
+            <div id="text">
+                <p class="slogon">/* <span class="typed-quotes"></span> */
+            </div>
+            <a class="scroll-up-div"><i class="fa fa-angle-up"></i></a>
         </div>
 
-        <div id="text">
-            <p class="slogon">/* <span class="typed-quotes"></span> */
+        <!--card2:2016生日贺卡2-->
+        <div id="card2" class="card_cont card">
+            <a class="scroll-down-div"><i class="fa fa-angle-down"></i></a>
+            <div></div>
+            <a class="scroll-up-div"><i class="fa fa-angle-up"></i></a>
         </div>
-        <!--<div class="scroll-down-div" onclick="$('#title-bar-feature-btn').trigger('click')"><i class="fa fa-angle-down" ></i></div>-->
-        <a href="#content" class="scroll-down-div" id="scroll-down"><i class="fa fa-angle-down" ></i></a>
+        <div class="tongue">
+            <div class="snak">
+                <a onclick="backhome()"><i class="fa fa-angle-double-down fa-2x"></i></a>
+                <div class="snak-spot-left"><div class="snak-spot1"></div></div>
+                <div class="snak-spot-right"><div class="snak-spot2"></div></div>
+                <div class="snak-eyes-left"></div>
+                <div class="snak-eyes-right"></div>
+                <div class="snak-tongue"></div>
+                <div class="snak-tongue-left"></div>
+                <div class="snak-tongue-right"></div>
+            </div>
+        </div>
     </div>
-    <div id="content" style="height: 900px">
-        打发打发哈大声道发生及地方阿道夫爱的
+
+
+
+    <div id="content" class="content" style="display: none">
+        <div>
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Brand</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
     </div>
 </body>
 <script type="text/javascript">
-    autodivheight();
-    function autodivheight(){ //函数：获取尺寸
+    //获取浏览器窗口高度
+    divheight();
+    function divheight(){ //函数：获取尺寸
         //获取浏览器窗口高度
         var winHeight=0;
         if (window.innerHeight)
@@ -237,9 +295,10 @@
         if (document.documentElement && document.documentElement.clientHeight)
             winHeight = document.documentElement.clientHeight;
         //DIV高度为浏览器窗口高度
-        document.getElementById("home").style.height= winHeight +"px";
+        document.getElementsByClassName("card_cont").style.height= winHeight +"px";
     }
-    window.onresize=autodivheight; //浏览器窗口发生变化时同时变化DIV高度
+    window.onresize=divheight(); //浏览器窗口发生变化时同时变化DIV高度
 </script>
 <script src="js/typed-quotes.js" type="text/javascript"></script>
+<script src="js/card.js" type="text/javascript"></script>
 </html>
