@@ -31,7 +31,7 @@ $('.scroll-down-div').click(function () {
     setTimeout(function() {
         $('#card'+_id).removeClass("cardn");
         $('#card'+_id).addClass("card");
-    }, 100);
+    }, 0);
 });
 
 function backhome() {

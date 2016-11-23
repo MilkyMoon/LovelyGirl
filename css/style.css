@@ -72,32 +72,7 @@ body{
     text-align: center;
 }
 
-.card{
-    display:block;
-    transform:scale(1,1) translate(0,0) !important ;
-    -ms-transform:scale(1,1) translate(0,0) !important ;
-    -moz-transform:scale(1,1) translate(0,0) !important ;
-    -webkit-transform:scale(1,1) translate(0,0) !important ;
-}
 
-.card_wrap{
-    position: relative;
-    z-index: 100;
-}
-
-.card_cont{
-    background-size:100% auto;
-    transition:all ease 1s;
-    -webkit-transition:all ease 1s;
-    -moz-transition:all ease 1s;
-    -ms-transition:all ease 1s;
-    transform:scale(0,0);
-    -moz-transform:scale(0,0);
-    -ms-transform:scale(0,0);
-    -o-transform:scale(0,0);
-    -webkit-transform:scale(0,0);
-    bottom:0;
-}
 
 
 
@@ -266,13 +241,47 @@ body{
 
 /*****************************************************************/
 
+/*****************************************************************/
+/*首页贺卡*/
+.card{
+    display:block;
+    transform:scale(1,1) translate(0,0) !important ;
+    -ms-transform:scale(1,1) translate(0,0) !important ;
+    -moz-transform:scale(1,1) translate(0,0) !important ;
+    -webkit-transform:scale(1,1) translate(0,0) !important ;
+}
+
+.card_wrap{
+    position: relative;
+    z-index: 100;
+}
+
+.card_cont{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    position: fixed;
+    display:block;
+    background-size:100% auto;
+    transition:all ease 1s;
+    -webkit-transition:all ease 1s;
+    -moz-transition:all ease 1s;
+    -ms-transition:all ease 1s;
+    transform:scale(0,0);
+    -moz-transform:scale(0,0);
+    -ms-transform:scale(0,0);
+    -o-transform:scale(0,0);
+    -webkit-transform:scale(0,0);
+    bottom:0;
+}
 
 .cardn{
     display:block;
-    transform:translate(0,-2000px) !important;
-    -moz-transform:translate(0,-2000px) !important;
-    -ms-transform:translate(0,-2000px) !important;
-    -webkit-transform:translate(0,-2000px) !important;
+    transform:translate(0,-1750px) !important;
+    -moz-transform:translate(0,-1750px) !important;
+    -ms-transform:translate(0,-1750px) !important;
+    -webkit-transform:translate(0,-1750px) !important;
 }
 
 #card1{
@@ -297,4 +306,12 @@ body{
     z-index: 99;
 }
 
+#card2{
+    background: #eed252;
+    z-index: 98;
+}
 
+#card3{
+    background: #ee7548;
+    z-index: 97;
+}
