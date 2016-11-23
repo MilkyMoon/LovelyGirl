@@ -103,11 +103,11 @@ body{
 
 /*****************************************************************/
 /* 小蛇书签 */
-.label{
+.snak-label{
     position: fixed;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 8px;
     height: 100px;
     width: 55px;
 }
