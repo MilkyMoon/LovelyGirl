@@ -2,6 +2,7 @@
 .cake{
     position: relative;
     z-index: 10;
+    margin-top: 55px;
 }
 
 #cake {

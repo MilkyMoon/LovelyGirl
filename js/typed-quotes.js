@@ -1,7 +1,7 @@
 /**
  * Created by PengZong on 16/11/22.
  */
-var s = 'Happy birthday!';
+var s = 'Happy birthday to you!';
 var con = $('.typed-quotes');
 var index = 0;
 var length = s.length;

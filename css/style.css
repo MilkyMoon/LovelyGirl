@@ -1,8 +1,13 @@
-/*html { overflow: hidden; }*/
+html { overflow-x: hidden; overflow-y: auto; }
 
 body{
-    margin:0;
+    margin: 0;
     padding: 0;
+}
+
+/* Chrome浏览器滚动条隐藏 */
+::-webkit-scrollbar{
+    display:none;
 }
 
 #home{
@@ -10,7 +15,7 @@ body{
 }
 
 #content{
-    width:100%;
+    width: 100%;
     position: absolute;
     z-index: 50;
 }
@@ -21,6 +26,7 @@ body{
 
 .scroll-up-div{
     position: absolute;
+    z-index: 101;
     left:0;
     bottom: 0;
     width: 100%;
@@ -58,8 +64,23 @@ body{
     position: absolute;
     width: 100%;
     height: 200px;
-    z-index: 100;
+    z-index: 99;
     background-color: #ee9ca7;
+}
+
+.title img{
+    position: absolute;
+    z-index: 100;
+}
+
+.title_text{
+    width: 50%;
+    margin: auto;
+    margin-top: 175px;
+}
+
+#text{
+    margin-top: 55px;
 }
 
 .slogon{
@@ -70,6 +91,7 @@ body{
     text-transform: uppercase;
     color: #FEFAE9;
     text-align: center;
+    margin-top: 20px;
 }
 
 
@@ -296,22 +318,11 @@ body{
 }
 
 #card2{
-    display:block;
-    background: #eed252;
-    width: 100%;
-    height: 100%;
-    margin:0;
-    padding: 0;
-    position: fixed;
     z-index: 99;
-}
-
-#card2{
-    background: #eed252;
-    z-index: 98;
+    background-image: url(../img/card2.png);
 }
 
 #card3{
     background: #ee7548;
-    z-index: 97;
+    z-index: 98;
 }
