@@ -44,6 +44,7 @@ body{
     position: absolute;
     left:0;
     top: 0;
+    z-index: 101;
     width: 100%;
     color: #fff;
     cursor: pointer;
@@ -319,10 +320,19 @@ body{
 
 #card2{
     z-index: 99;
-    background-image: url(../img/card2.png);
+    background-color: #3a4e5e;
 }
 
 #card3{
-    background: #ee7548;
+    background: #FAE6AB;
     z-index: 98;
+}
+
+.happy{
+    text-align: center;
+}
+
+.cong{
+    width: 60%;
+    margin-top: 16%;
 }
